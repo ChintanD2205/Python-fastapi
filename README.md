@@ -108,13 +108,13 @@ You can use tools like `curl` or Postman to test the endpoints:
 ```bash
 curl -X POST "http://localhost:8000/rag" -H "Content-Type: application/json" -d '{"query":"I'm feeling overwhelmed"}'
 ```
-
+![/rag output](images/rag.png)
 #### Test the Classification Endpoint
 
 ```bash
 curl -X POST "http://localhost:8000/classification" -H "Content-Type: application/json" -d '{"query":"I'm feeling very low and hopeless"}'
 ```
-
+![/classification output](images/classification.png)
 ## 📦 Additional Information
 
 - **Python Version:** Requires Python 3.9 or higher.
